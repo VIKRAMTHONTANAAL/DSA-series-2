@@ -12,7 +12,7 @@ public class PrimeOrNot {
             System.out.println(number + " is not a prime number");
         }
 
-        for (int i = 2; i < number / 2; i++) {
+        for (int i = 2; i <=number / 2; i++) {
             if (number % i == 0) {
                 System.out.println(number + " is not a prime number");
                 System.exit(0);
