@@ -1,4 +1,4 @@
-package main.java.Practice;
+package Practice;
 
 public class isPrime {
 
