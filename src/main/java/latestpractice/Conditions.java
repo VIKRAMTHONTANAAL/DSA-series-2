@@ -1,4 +1,4 @@
-package latestpractice2025;
+package latestpractice;
 import java.util.Scanner;
 
 public class Conditions {

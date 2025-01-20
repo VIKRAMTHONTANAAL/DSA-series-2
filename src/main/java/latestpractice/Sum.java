@@ -1,4 +1,4 @@
-package latestpractice2025;
+package latestpractice;
 
 public class Sum {
     public static void main(String[] args) {

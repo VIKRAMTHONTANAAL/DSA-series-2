@@ -1,4 +1,4 @@
-package latestpractice2025;
+package latestpractice;
 
 public class SumOfEven {
     public static void main(String[] args) {

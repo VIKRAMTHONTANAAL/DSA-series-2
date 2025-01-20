@@ -1,4 +1,4 @@
-package latestpractice2025;
+package latestpractice;
 
 public class PrintFibonacci {
     public static void main(String []args){
