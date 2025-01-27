@@ -4,7 +4,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int arr[] = { 1,5,8,9,13,17,23,30};
-        int search = 0;
+        int search = 13;
 
         int key = binarySearch(0, arr.length-1, arr, search);
         System.out.println(key);
@@ -19,7 +19,7 @@ public class BinarySearch {
         if(arr[mid]==key){
             return mid;
         }
-        if(mid==end){
+        if(start>end){
             return -1;
         }
         if(arr[mid]>key){
