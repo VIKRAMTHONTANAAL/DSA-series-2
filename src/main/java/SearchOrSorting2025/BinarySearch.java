@@ -12,7 +12,7 @@ public class BinarySearch {
     }
 
     public static int binarySearch(int start, int end, int arr[], int key){
-        int mid = (start + end)/2;
+        int mid = (start)+ ((end-start)/2);
 
 
 

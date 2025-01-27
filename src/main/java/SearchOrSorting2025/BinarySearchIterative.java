@@ -4,7 +4,7 @@ public class BinarySearchIterative {
 
     public static int binarySearch(int arr[], int search ) {
         int start = 0, end = arr.length - 1;
-        int mid = (start + end) / 2;
+        int mid = (start)+ ((end-start)/2);
 
         while (start <= end) {
             if (arr[mid] == search) {
@@ -26,7 +26,7 @@ public class BinarySearchIterative {
     public static void main(String[] args) {
 
         int arr[]={1,3,5,7,9};
-        int search=10;
+        int search=5;
 
         int key_place= binarySearch(arr, search);
         System.out.println(key_place);
