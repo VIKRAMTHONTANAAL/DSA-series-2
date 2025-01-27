@@ -1,4 +1,4 @@
-package Sorting2025;
+package SearchOrSorting2025;
 
 public class SelectionSort {
     public static void main(String[] args) {
