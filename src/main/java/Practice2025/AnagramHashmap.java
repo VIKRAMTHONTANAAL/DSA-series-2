@@ -3,7 +3,8 @@ package Practice2025;
 import java.util.HashMap;
 import java.util.Map;
 
-public class AnagramHashmap {
+public class
+AnagramHashmap {
     public static void main(String[] args) {
         String s1= "lIST fN ";
         String s2= "sil NET";
