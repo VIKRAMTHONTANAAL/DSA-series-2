@@ -2,6 +2,7 @@ package Practice2025;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.StringTokenizer;
 
 public class
 AnagramHashmap {
@@ -20,6 +21,8 @@ AnagramHashmap {
     public static boolean isAnagram(String s1, String s2){
         s1=s1.replace(" ", "").toLowerCase();
         s2=s2.replace(" ", "").toLowerCase();
+        StringTokenizer token = new StringTokenizer(s1, " ");
+
         Integer count =1;
         Map<Character,Integer> hash= new HashMap();
 
