@@ -15,7 +15,7 @@ public class ReverseARRAY {
         int start=0;
         int end= arr.length-1;
 
-        while(end>start){
+        while(end>=start){
             int swap=arr[start];
             arr[start]=arr[end];
             arr[end]=swap;
@@ -32,7 +32,7 @@ public class ReverseARRAY {
 
     public static void main(String[] args) {
 
-        int arr[]={2,7,5,9};
+        int arr[]={1,4,2,9,3};
 
         arr= reverse(arr);
 
